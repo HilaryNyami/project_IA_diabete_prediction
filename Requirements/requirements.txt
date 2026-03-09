@@ -1,0 +1,35 @@
+------- This file containt all the necessary Libraries that you need to run this project -------
+!pip install scikit-learn
+
+!pip install xgboost
+
+!pip install numpy
+
+!pip install pandas
+
+----------------------------- It has three folders on this zip file -----------------------------
+
+1. Data_Code: this folder contains three files
+		
+	filename: finalNoteBook.ipynb,
+	description: This file contains the code of all the steps that we did to run the model and generate the 	submission file.
+	
+	filename: Train.csv
+	description: This is the dataset on which we trained the model.
+	
+	filename: Test.csv
+	description: This is the dataset on which we evaluated the model.
+
+2. Submission: this folder contains only one file
+
+	filename: submission.csv
+
+	description: This file is the one we generated containing the results of the predictions made by the model 	on the Test.csv data set
+
+3. Requirements: this file contains one file
+
+	filename: requirements.txt
+
+	description:This file contains all the dependencies needed to be installed to run the finalNoteBoot file
+
+
